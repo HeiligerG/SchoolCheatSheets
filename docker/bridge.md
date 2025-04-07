@@ -1,123 +1,96 @@
-## 🌐📦📝 WordPress mit MariaDB & phpMyAdmin in Docker
+## 🔄 **Container mit Docker-Netzwerken verbinden & trennen**
 
 ---
 
-### 🔧 **Ziel: Web-App mit WordPress + Datenbank in Docker betreiben**
+### 🧩 **Mehrere Netzwerke für einen Container nutzen**
 
-- Alle Container sind im **gemeinsamen benutzerdefinierten Netzwerk**
-- Keine externen Links, nur interne Kommunikation
-- Zugriff auf:
-  - phpMyAdmin: [http://localhost:8080](http://localhost:8080)
-  - WordPress: [http://localhost:8081](http://localhost:8081)
+Ein Docker-Container kann gleichzeitig mit **mehreren Netzwerken** verbunden sein. Das ermöglicht z. B. Kommunikation zwischen verschiedenen Komponenten oder Migration von einem Netzwerk zum anderen.
 
 ---
 
-### 🔹 **1. Netzwerk erstellen**
+### 🧱 **Beispiel: Container zwischen Netzwerken bewegen**
+
+#### ▶️ Ausgangslage:
+Ein Container läuft bereits im benutzerdefinierten Netzwerk `webapp` – z. B.:
 
 ```bash
-docker network create blog-network
+docker network create webapp
+docker run --network webapp -d --name webapp_container nginx
 ```
 
 ---
 
-### 🔹 **2. MariaDB starten**
+### ➕ **Container mit einem weiteren Netzwerk verbinden**
 
 ```bash
-docker run -d \
-  --name mariadb \
-  --network blog-network \
-  -e MARIADB_ROOT_PASSWORD=sml12345 \
-  mariadb
+docker network connect bridge webapp_container
 ```
+
+- Verbindet `webapp_container` zusätzlich mit dem Standardnetzwerk `bridge`.
 
 ---
 
-### 🔍 **Check: Ist MariaDB bereit?**
+### 🔍 **Netzwerk prüfen**
 
 ```bash
-docker logs mariadb
+docker network inspect bridge
 ```
 
-> Achte auf die Zeile:  
-> `ready for connections`
+Im Abschnitt `Containers` sollte `webapp_container` jetzt auftauchen.
 
 ---
 
-### 🔍 **IP-Adresse der Datenbank herausfinden**
+### ➖ **Container von einem Netzwerk trennen**
 
 ```bash
-docker inspect -f "{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}" mariadb
+docker network disconnect webapp webapp_container
 ```
 
-> **Alternativ:** In `blog-network` funktioniert auch der Containername `mariadb` als Hostname!
+- Entfernt den Container aus dem Netzwerk `webapp`.
 
 ---
 
-### 🔹 **3. phpMyAdmin starten (extern zugänglich)**
+### ✅ **Aktuelle Netzwerke des Containers anzeigen**
 
 ```bash
-docker run -d \
-  --name phpmyadmin \
-  -e PMA_HOST=mariadb \
-  -p 8080:80 \
-  phpmyadmin
+docker container inspect webapp_container
 ```
 
-### 🔄 **Netzwerk wechseln (von bridge zu blog-network)**
+Suche im Abschnitt `NetworkSettings.Networks` – hier steht genau, **mit welchen Netzwerken** der Container noch verbunden ist.
+
+> Nach der Trennung vom `webapp`-Netzwerk sollte nur noch `bridge` angezeigt werden.
+
+---
+
+### 🧠 **Wichtig zu wissen**
+
+| Aktion                        | Ergebnis                                  |
+|------------------------------|-------------------------------------------|
+| `network connect`            | Fügt Container einem weiteren Netzwerk hinzu |
+| `network disconnect`         | Entfernt Netzwerkverbindung                |
+| `inspect`                    | Zeigt alle aktiven Netzwerkverbindungen   |
+| Nur manuell möglich          | Container springt **nicht automatisch** zwischen Netzwerken |
+| IP-Adresse pro Netzwerk      | Container bekommt **eine IP pro Netzwerk** |
+
+---
+
+### 🧪 **Beispiel – Kompletter Ablauf**
 
 ```bash
-docker network connect blog-network phpmyadmin
-docker network disconnect bridge phpmyadmin
+docker network create webapp
+docker run --network webapp -d --name webapp_container nginx
+
+docker network connect bridge webapp_container
+docker network inspect bridge | grep webapp_container
+
+docker network disconnect webapp webapp_container
+docker container inspect webapp_container
 ```
 
----
-
-### 🌐 **Zugriff über Browser**
-
-[http://localhost:8080](http://localhost:8080)
-
-**Login:**
-- Benutzer: `root`
-- Passwort: `sml12345`
+🔍 Ergebnis:
+- Container ist jetzt **nur noch im bridge-Netzwerk**.
+- Kommunikation im ursprünglichen `webapp`-Netzwerk ist nicht mehr möglich.
 
 ---
 
-### 🔒 **Neuen Benutzer & DB in phpMyAdmin anlegen**
-
-1. Neuer Benutzer: `blog`  
-2. Passwort generieren (z. B. über Passwortmanager oder `openssl rand`)  
-3. Gleicher Name für Datenbank: `blog`  
-4. **Alle Rechte gewähren**
-
-📝 Passwort notieren, wird gleich gebraucht!
-
----
-
-### 🔹 **4. WordPress starten**
-
-```bash
-docker run -d \
-  --name wordpress \
-  --network blog-network \
-  -e WORDPRESS_DB_HOST=mariadb \
-  -e WORDPRESS_DB_USER=blog \
-  -e WORDPRESS_DB_PASSWORD="MEIN_SICHERES_PASSWORT" \
-  -e WORDPRESS_DB_NAME=blog \
-  -p 8081:80 \
-  wordpress
-```
-
----
-
-### 🌐 **WordPress einrichten**
-
-Gehe zu: [http://localhost:8081](http://localhost:8081)
-
-1. Sprache wählen
-2. Admin-Zugang erstellen (Benutzername, Passwort, E-Mail)
-3. Installation abschliessen
-
----
-
-### ✅ **Fertig!**  
-Du hast jetzt eine komplett dockerisierte Webanwendung – **modular, vernetzt, einsatzbereit**.
+Das ist perfekt, um z. B. **Container im Betrieb umzuhängen**, Netzwerkkonfigurationen zu testen oder auch bestimmte **Sicherheitszonen** aufzubauen.

@@ -175,9 +175,3 @@ ls
 - Wann setze ich welche Methode ein?
 - Welche Variante ist am sichersten / flexibelsten?
 - Wie beeinflussen Dateiberechtigungen die Arbeit?
-
-#### 📝 Abschlussaufgabe:
-> Plane ein Mini-Projekt mit Docker, bei dem du:
-- Dateien mit `docker cp` einspielst,
-- Bind Mounts für die Entwicklung nutzt,
-- Volumes für produktive Datenhaltung verwendest.
