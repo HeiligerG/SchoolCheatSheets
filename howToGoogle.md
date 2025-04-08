@@ -6,7 +6,7 @@
 
 ### Inhaltsverzeichnis: Google-Suchtipps für Programmierer
 
-## 💡 Warum ist korrektes Googeln für Programmierer:innen so wichtig?
+## Warum ist korrektes Googeln für Programmierer:innen so wichtig?
 - [💡 Warum ist korrektes Googeln für Programmierer:innen so wichtig?](#-warum-ist-korrektes-googeln-für-programmiererinnen-so-wichtig-1)
   - Zeit ist Gold  
   - Code googeln ≠ dumm sein  
