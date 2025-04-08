@@ -89,7 +89,7 @@
 | [github.com](https://github.com) | Repos, echte Beispiele |
 | [mdn web docs](https://developer.mozilla.org) | JavaScript, HTML, CSS Doku |
 | [geeksforgeeks.org](https://geeksforgeeks.org) | Theorie & Praxis |
-| [w3schools.com](https://w3schools.com) | Grundsyntax (vorsichtig genießen 😄) |
+| [w3schools.com](https://w3schools.com) | Grundsyntax (vorsichtig geniessen 😄) |
 
 ---
 
