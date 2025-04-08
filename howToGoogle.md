@@ -6,21 +6,28 @@
 
 ### Inhaltsverzeichnis: Google-Suchtipps für Programmierer
 
-1. [Allgemeine Struktur beim Googeln](##allgemeine-struktur-beim-googeln)
-2. [Effektive Suchbegriffe & Operatoren](#effektive-suchbegriffe--operatoren)
-3. [Programmier-spezifische Begriffe](#programmier-spezifische-begriffe-die-du-kombinieren-kannst)
-4. [Fehlermeldungen richtig googeln](#fehlermeldungen-richtig-googeln)
-5. [Tipps nach Programmiersprache](#tipps-nach-programmiersprache)
-   - [Python](#python)
-   - [JavaScript / React / Node](#javascript--react--node)
-   - [C/C++/Java](#ccjava)
-6. [Spezielle Google-Tricks für Entwickler](#spezielle-google-tricks-für-entwickler)
-7. [Top-Websites für Programmierer](#top-websites-für-programmierer)
-8. [Beispiel-Suchanfragen](#beispiel-suchanfragen)
-9. [Docker-Suchbegriffe & -Beispiele](#docker-suchbegriffe---beispiele)
-10. [Spezifische Beispiel-Suchanfragen für Docker](#spezifische-beispiel-suchanfragen-für-docker)
-11. [Bonus: Docker-Spezifische Seiten zum Googeln](#bonus-docker-spezifische-seiten-zum-googeln-mit-site)
-12. [Power-Search-Tipp für Docker](#power-search-tipp-für-docker)
+## Allgemeine Suchtipps
+- [🧠 Allgemeine Struktur beim Googeln](#-allgemeine-struktur-beim-googeln)
+- [🔍 Effektive Suchbegriffe & Operatoren](#-effektive-suchbegriffe--operatoren)
+- [🔧 Programmier-spezifische Begriffe](#-programmier-spezifische-begriffe-die-du-kombinieren-kannst)
+- [🧩 Fehlermeldungen richtig googeln](#-fehlermeldungen-richtig-googeln)
+
+## Programmiersprachen-spezifische Tipps
+- [⚙️ Tipps nach Programmiersprache](#️-tipps-nach-programmiersprache)
+  - Python
+  - JavaScript / React / Node
+  - C/C++/Java
+
+## Erweiterte Suchtechniken
+- [💎 Spezielle Google-Tricks für Entwickler](#-spezielle-google-tricks-für-entwickler)
+- [📚 Top-Websites für Programmierer](#-top-websites-für-programmierer)
+- [🛠️ Beispiel-Suchanfragen](#️-beispiel-suchanfragen)
+
+## Docker-spezifische Suchhilfen
+- [🐳 Docker-Suchbegriffe & -Beispiele](#-docker-suchbegriffe--beispiele)
+- [🔍 Spezifische Beispiel-Suchanfragen für Docker](#-spezifische-beispiel-suchanfragen-für-docker)
+- [🛠️ Bonus: Docker-Spezifische Seiten zum Googeln](#️-bonus-docker-spezifische-seiten-zum-googeln-mit-site)
+- [🔥 Power-Search-Tipp für Docker](#-power-search-tipp-für-docker)
 ---
 
 ## 🔍 **Effektive Suchbegriffe & Operatoren**
