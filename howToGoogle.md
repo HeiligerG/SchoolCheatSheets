@@ -99,3 +99,59 @@
 - ✅ `TypeError: cannot read property 'map' of undefined react`
 - ✅ `css center div horizontally and vertically flexbox`
 - ✅ `best way to validate email in javascript`
+
+---
+
+## 🐳 **Docker-Suchbegriffe & -Beispiele**
+
+Docker kann tricky sein – hier sind Begriffe, die du mit anderen Keywords kombinieren solltest:
+
+| Thema | Suchbegriffe / Beispiele |
+|-------|---------------------------|
+| Container starten / stoppen | `docker start`, `docker stop`, `docker restart`, `docker run example` |
+| Container-Logs | `docker logs container_name`, `docker container log error` |
+| Fehlerbehebung | `docker build failed`, `docker image not found`, `dockerfile permission denied` |
+| Netzwerk / Ports | `docker port mapping`, `docker expose port not working`, `docker network bridge` |
+| Volumes & Daten | `docker volume mount`, `docker bind mount vs volume`, `docker volume not updating` |
+| Dockerfile | `dockerfile copy not working`, `dockerfile install python`, `multi-stage docker build` |
+| Images | `docker image size too big`, `docker pull from private registry`, `docker image tag latest` |
+| Compose | `docker-compose up`, `docker-compose env file`, `docker-compose restart service` |
+| Debug | `docker exec -it container /bin/bash`, `docker inspect`, `docker ps -a` |
+
+---
+
+## 🔍 **Spezifische Beispiel-Suchanfragen für Docker**
+
+- ✅ `dockerfile nodejs app example`
+- ✅ `docker build permission denied`
+- ✅ `docker-compose postgres persistent data`
+- ✅ `docker container exited with code 137`
+- ✅ `how to share volume between docker containers`
+- ✅ `docker run -p explained`
+- ✅ `docker nginx reverse proxy example`
+
+---
+
+## 🛠️ Bonus: Docker-Spezifische Seiten zum Googeln mit `site:`
+
+| Website | Warum es hilft |
+|--------|----------------|
+| `site:docs.docker.com` | Offizielle Dokumentation, immer aktuell |
+| `site:stackoverflow.com docker` | Konkrete Probleme & Lösungen |
+| `site:github.com` | Beispiele für Dockerfiles, docker-compose.yml |
+| `site:medium.com docker` | Artikel & Tutorials |
+| `site:dev.to docker` | Dev-Perspektive, moderne Best Practices |
+
+---
+
+## 🔥 Power-Search-Tipp für Docker:
+
+Wenn du nach einem **Fehler in einem Container** suchst:
+```
+[Fehlermeldung] docker container logs OR docker build error
+```
+
+Oder wenn du ein **Problem beim Build hast:**
+```
+failed to solve with frontend dockerfile.v0 site:stackoverflow.com
+```
