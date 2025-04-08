@@ -24,7 +24,7 @@
 - [🛠️ Beispiel-Suchanfragen](#️-beispiel-suchanfragen)
 
 ## Docker-spezifische Suchhilfen
-- [🐳 Docker-Suchbegriffe & -Beispiele](#-docker-suchbegriffe--beispiele)
+- [🐳 Docker-Suchbegriffe & -Beispiele](#-docker-suchbegriffe---beispiele)
 - [🔍 Spezifische Beispiel-Suchanfragen für Docker](#-spezifische-beispiel-suchanfragen-für-docker)
 - [🛠️ Bonus: Docker-Spezifische Seiten zum Googeln](#️-bonus-docker-spezifische-seiten-zum-googeln-mit-site)
 - [🔥 Power-Search-Tipp für Docker](#-power-search-tipp-für-docker)
