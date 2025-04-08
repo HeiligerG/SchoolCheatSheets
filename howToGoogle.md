@@ -6,7 +6,7 @@
 
 ### Inhaltsverzeichnis: Google-Suchtipps für Programmierer
 
-1. [Allgemeine Struktur beim Googeln](#allgemeine-struktur-beim-googeln)
+1. [Allgemeine Struktur beim Googeln](##allgemeine-struktur-beim-googeln)
 2. [Effektive Suchbegriffe & Operatoren](#effektive-suchbegriffe--operatoren)
 3. [Programmier-spezifische Begriffe](#programmier-spezifische-begriffe-die-du-kombinieren-kannst)
 4. [Fehlermeldungen richtig googeln](#fehlermeldungen-richtig-googeln)
