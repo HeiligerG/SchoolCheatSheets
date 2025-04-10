@@ -7,14 +7,27 @@ Dieses Repository enthält eine Sammlung von Cheatsheets für verschiedene Schul
 ## 📚 Aktueller Inhalt
 
 ### Docker-Cheatsheets
-- **[Docker CP, Bind Mounts & Volumes](docker/cp-mounts.md)** - Dateioperationen und Persistenz in Docker
-- **[Volumes mit Docker](docker/volume.md)** - Detaillierte Anleitung zur dauerhaften Datenspeicherung
-- **[Docker-Netzwerke](docker/network.md)** - Container vernetzen, verstehen & nutzen
-- **[Container mit Docker-Netzwerken verbinden & trennen](docker/bridge.md)** - Netzwerkverbindungen verwalten
-- **[WordPress mit MariaDB & phpMyAdmin](docker/WP-MariaDB-phpMyAdmin.md)** - Praktisches Beispiel einer Multi-Container-Anwendung
+- **[Docker CP, Bind Mounts & Volumes](docker/Markdown/cp-mounts.md)** - Dateioperationen und Persistenz in Docker
+- **[Volumes mit Docker](docker/Markdown/volume.md)** - Detaillierte Anleitung zur dauerhaften Datenspeicherung
+- **[Docker-Netzwerke](docker/Markdown/network.md)** - Container vernetzen, verstehen & nutzen
+- **[Container mit Docker-Netzwerken verbinden & trennen](docker/Markdown/bridge.md)** - Netzwerkverbindungen verwalten
+- **[WordPress mit MariaDB & phpMyAdmin](docker/Markdown/WP-MariaDB-phpMyAdmin.md)** - Praktisches Beispiel einer Multi-Container-Anwendung
 
-### [Inhaltsverzeichnis](docker-toc.md)
+**[Inhaltsverzeichnis](docker/Markdown/A_Inhalt.md)**
 Eine übersichtliche Darstellung aller Docker-Cheatsheets mit Kurzbeschreibungen.
+
+>**Es gibt bei Docker auch PDF's, da diese ausgedruckt und an der Prüfung verwendet werden können.**
+
+### NoSQL-Cheatsheets
+
+- **[Einstieg in MongoDB & Atlas](NoSQL/Markdown/AA_Einstieg.md)** – Grundlagen, Datenstrukturen, Cloud-Zugriff, erste Abfragen
+- **[Backups & Wiederherstellung](NoSQL/Markdown/B_Backup.md)** – `mongodump`, `mongorestore`, Automatisierung per Shell & Cron
+- **[MongoDB Shell-Commands](NoSQL/Markdown/C_Shell.md)** – Datenbanken, Collections, Abfragen, Filter, Projektion
+- **[Python & MongoDB (pymongo)](NoSQL/Markdown/D_Software.md)** – Verbindung, CRUD mit Objekten, DAO-Muster umsetzen
+- **[MongoDB CRUD kompakt erklärt](NoSQL/Markdown/Z_CRUD.md)** – Schritt-für-Schritt von Create bis Delete – super einfach & klar
+
+**[Inhaltsverzeichnis NoSQL](NoSQL/Markdown/A_Inhalt.md)**
+Eine übersichtliche Darstellung aller NoSQL-Cheatsheets mit Kurzbeschreibungen.
 
 ## 🔍 Warum dieses Repository?
 
