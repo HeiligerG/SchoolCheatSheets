@@ -4,6 +4,10 @@
 
 Dieses Repository enthält eine Sammlung von Cheatsheets für verschiedene Schulfächer und Technologien. Es wurde erstellt, um wichtige Konzepte, Befehle und Beispiele zentral und von überall zugänglich zu haben.
 
+<div style="color: Red; font-weight: bold;">
+ℹ️ Info: Es lohnt sich das ganze Repo zu clonen, um dann das Markdown Preview von VSCode zu verwenden.
+</div>
+
 ## 📚 Aktueller Inhalt
 
 ### Docker-Cheatsheets
