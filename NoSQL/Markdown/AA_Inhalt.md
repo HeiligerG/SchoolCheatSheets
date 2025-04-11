@@ -4,7 +4,7 @@ Hier findest du alle Themen rund um MongoDB & NoSQL – von der Einführung bis 
 
 ---
 
-## [AA_Einstieg.md](./AA_Einstieg.md)  
+## [A_Einstieg.md](./AA_Einstieg.md)  
 **MongoDB Basics & Atlas (Cloud)**
 - Was ist NoSQL?
 - Unterschiede zu relationalen DBs
