@@ -1,3 +1,87 @@
+# Aufgabenliste zum Üben – von leicht bis schwer - Lösungen sind im unteren Teil ersichtlich (mit Lösungsweg)
+
+---
+## 1. Lineare Gleichung
+
+**Formel:**  
+$$y = m \cdot x + b$$
+
+**Aufgabe:** Stelle nach $x$ um.
+
+---
+## 2. Gleichmäßig beschleunigte Bewegung  
+
+**Formel:**  
+$$s = \frac{1}{2} a t^2$$
+
+**Aufgabe:** Stelle nach $a$ um.
+
+---
+## 3. Ohm'sches Gesetz
+
+**Formel:**  
+$$U = R \cdot I$$
+
+**Aufgabe:** Stelle nach $R$ um.
+
+---
+## 4. Kreisumfang
+
+**Formel:**  
+$$U = 2 \pi r$$
+
+**Aufgabe:** Stelle nach $r$ um.
+
+---
+## 5. Newtons 2. Gesetz
+
+**Formel:**  
+$$F = m \cdot a$$
+
+**Aufgabe:** Stelle nach $m$ um.
+
+---
+## 6. Energie beim freien Fall
+
+**Formel:**  
+$$E = m g h$$
+
+**Aufgabe:** Stelle nach $h$ um.
+
+---
+## 7. Kinetische Energie
+
+**Formel:**  
+$$E = \frac{1}{2} m v^2$$
+
+**Aufgabe:** Stelle nach $v$ um.
+
+---
+## 8. Brechungsgesetz (Snellius)
+
+**Formel:**  
+$$n_1 \cdot \sin(\alpha) = n_2 \cdot \sin(\beta)$$
+
+**Aufgabe:** Stelle nach $\beta$ um.
+
+---
+## 9. Ideale Gasgleichung
+
+**Formel:**  
+$$pV = nRT$$
+
+**Aufgabe:** Stelle nach $T$ um.
+
+---
+## 10. Gleichung mit Wurzel
+
+**Formel:**  
+$$s = \sqrt{2 a t}$$
+
+**Aufgabe:** Stelle nach $a$ um.
+
+---
+
 # Übungen: Formeln umstellen
 
 ## 1. Lineare Gleichungen
