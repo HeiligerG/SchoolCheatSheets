@@ -33,7 +33,7 @@ Eine übersichtliche Darstellung aller Docker-Cheatsheets mit Kurzbeschreibungen
 **[Inhaltsverzeichnis NoSQL](NoSQL/Markdown/A_Inhalt.md)**
 Eine übersichtliche Darstellung aller NoSQL-Cheatsheets mit Kurzbeschreibungen.
 
-### BBZW
+### BBZB
 - **[Alles was in die BM gehört](BBZB)**
 
 ## 🔍 Warum dieses Repository?
