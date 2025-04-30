@@ -50,7 +50,7 @@ Eine übersichtliche Darstellung aller NoSQL-Cheatsheets mit Kurzbeschreibungen.
 3. In den meisten IDEs und auf GitHub werden die Dateien formatiert dargestellt
 
 ```bash
-git clone https://github.com/DEIN_USERNAME/SchoolCheatSheets.git
+git clone https://github.com/HeiligerG/SchoolCheatSheets.git
 ```
 
 ## 📝 Beitragen
