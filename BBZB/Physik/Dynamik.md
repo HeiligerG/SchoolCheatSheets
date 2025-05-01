@@ -99,6 +99,69 @@ Reibungskräfte wirken der Bewegung entgegen oder verhindern das Einsetzen einer
 - In der Regel gilt: μR < μG < μH
 - Daher ist Rollen energetisch günstiger als Gleiten
 
+### Prinzip zur Reibung ohne Masse
+
+**Herleitung**
+
+Wenn du eine Reibungskraft wie $R = \mu \cdot F_N$ hast und sie in die Bewegungsgleichung $F = m \cdot a$ einsetzt, passiert Folgendes:
+
+$$a = \frac{R}{m} = \frac{\mu \cdot F_N}{m}$$
+
+Und da auf einer horizontalen Fläche die Normalkraft ist:  
+
+$$F_N = m \cdot g$$
+
+Dann ergibt sich:
+
+$$a = \frac{\mu \cdot m \cdot g}{m} = \mu \cdot g$$
+
+**Die Masse kürzt sich raus!**
+
+---
+
+ **Merksatz:**
+
+> **„Bei Reibungsverzögerung auf horizontaler Fläche hängt die Bremswirkung nur von $\mu$ und $g$ ab – nicht von der Masse!"**
+
+Dadurch kannst du auch **ohne Masse** den Weg, die Beschleunigung oder die Zeit berechnen, wenn ein Körper durch Reibung abbremst.
+
+### Anwendungsformeln
+
+**Beschleunigung durch Reibung:**
+$$a = -\mu \cdot g$$
+
+**Bremsweg:**
+$$s = \frac{v_0^2}{2 \cdot \mu \cdot g}$$
+
+**Bremszeit:**
+$$t = \frac{v_0}{\mu \cdot g}$$
+
+**Geschwindigkeit nach einer bestimmten Zeit:**
+$$v(t) = v_0 - \mu \cdot g \cdot t$$
+
+**Geschwindigkeit nach einer bestimmten Strecke:**
+$$v(s) = \sqrt{v_0^2 - 2 \cdot \mu \cdot g \cdot s}$$
+
+**Beispiel**
+
+Ein Auto fährt mit 50 km/h (≈ 13,9 m/s) auf einer horizontalen Straße. Der Reibungskoeffizient zwischen Reifen und Straße beträgt $\mu = 0,7$.
+
+**Bremsweg:**
+$$s = \frac{v_0^2}{2 \cdot \mu \cdot g} = \frac{13,9^2}{2 \cdot 0,7 \cdot 9,81} ≈ \frac{193,2}{13,7} ≈ 14,1 \text{ m}$$
+
+**Bremszeit:**
+$$t = \frac{v_0}{\mu \cdot g} = \frac{13,9}{0,7 \cdot 9,81} ≈ \frac{13,9}{6,87} ≈ 2,0 \text{ s}$$
+
+**Verzögerung:**
+$$a = -\mu \cdot g = -0,7 \cdot 9,81 ≈ -6,9 \text{ m/s}^2$$
+
+**Besonderheiten**
+
+- Diese Vereinfachung gilt nur für die Gleitreibung auf horizontalen Flächen
+- Bei geneigten Flächen kommt der Einfluss des Winkels hinzu
+- Die Formel zeigt, warum bei gleichem Reibungskoeffizienten alle Körper gleich schnell fallen oder gleich stark bremsen, unabhängig von ihrer Masse
+- Dies erklärt auch, warum ein leichter und ein schwerer LKW den gleichen Bremsweg haben (bei identischen Reifen und Straßenbedingungen)
+
 ## 6. Kräfte allgemein
 
 ### Einheit:
