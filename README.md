@@ -10,7 +10,7 @@ Dieses Repository enthält eine Sammlung von Cheatsheets für verschiedene Schul
 
 ### Docker-Cheatsheets
 
-**[Inhaltsverzeichnis](docker/Markdown/A_Inhalt.md)**
+**[Inhaltsverzeichnis Docker](docker/Markdown/A_Inhalt.md)**
 Eine übersichtliche Darstellung aller Docker-Cheatsheets mit Kurzbeschreibungen.
 
 - **[Docker CP, Bind Mounts & Volumes](docker/Markdown/cp-mounts.md)** - Dateioperationen und Persistenz in Docker
@@ -34,7 +34,7 @@ Eine übersichtliche Darstellung aller NoSQL-Cheatsheets mit Kurzbeschreibungen.
 
 ### Python-Cheatsheets
 
-**[Inhaltsverzeichnis](Python/Markdown/00_Inhalt.md)**
+**[Inhaltsverzeichnis Python](Python/Markdown/00_Inhalt.md)**
 Eine übersichtliche Darstellung aller Python-Cheatsheets mit Kurzbeschreibungen.
 
 - **[Grundlagen](Python/Markdown/01_Grundlagen.md)**
