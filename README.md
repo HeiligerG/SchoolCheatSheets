@@ -5,7 +5,7 @@
 Dieses Repository enthält eine Sammlung von Cheatsheets für verschiedene Schulfächer und Technologien. Es wurde erstellt, um wichtige Konzepte, Befehle und Beispiele zentral und von überall zugänglich zu haben.
 
 <div style="color: Red; font-weight: bold;">
-ℹ️ Info: Es lohnt sich das ganze Repo zu clonen, um dann das Markdown Preview von VSCode zu verwenden.
+>**Info:** Es lohnt sich das ganze Repo zu clonen, um dann das Markdown Preview von VSCode zu verwenden.
 </div>
 
 ## Aktueller Inhalt
@@ -54,7 +54,7 @@ Eine übersichtliche Darstellung aller Python-Cheatsheets mit Kurzbeschreibungen
 - **Versionskontrolle**: Änderungen nachvollziehen und bei Bedarf rückgängig machen
 - **Kollaboration**: Einfaches Teilen mit Klassenkameraden
 
-## 🛠️ Verwendung
+## Verwendung
 
 1. Repository klonen oder einzelne Dateien herunterladen
 2. Markdown-Dateien können mit jedem Markdown-Viewer angezeigt werden
@@ -78,4 +78,4 @@ Dieses Repository wird regelmäßig mit neuen Cheatsheets und Aktualisierungen b
 
 ---
 
-⭐ **Hinweis**: Diese Cheatsheets sind als Lernhilfe gedacht und ersetzen nicht das eigenständige Lernen und Verstehen der Konzepte.
+**Hinweis**: Diese Cheatsheets sind als Lernhilfe gedacht und ersetzen nicht das eigenständige Lernen und Verstehen der Konzepte.
