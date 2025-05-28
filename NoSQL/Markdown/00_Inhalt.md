@@ -4,7 +4,7 @@ Hier findest du alle Themen rund um MongoDB & NoSQL – von der Einführung bis 
 
 ---
 
-## [A_Einstieg.md](./AA_Einstieg.md)  
+## [01_Einstieg.md](./01_Einstieg.md)  
 **MongoDB Basics & Atlas (Cloud)**
 - Was ist NoSQL?
 - Unterschiede zu relationalen DBs
@@ -15,7 +15,7 @@ Hier findest du alle Themen rund um MongoDB & NoSQL – von der Einführung bis 
 
 ---
 
-## [B_Backup.md](./B_Backup.md)  
+## [02_Backup.md](./02_Backup.md)  
 **Backup & Wiederherstellung**
 - `mongodump` & `mongorestore` (lokal und remote)
 - Backup-Ordner mit Zeitstempel
@@ -24,7 +24,7 @@ Hier findest du alle Themen rund um MongoDB & NoSQL – von der Einführung bis 
 
 ---
 
-## [C_Shell.md](./C_Shell.md)  
+## [03_Shell.md](./03_Shell.md)  
 **Datenbearbeitung in der Shell**
 - `use`, `insert`, `find`, `update`, `delete`
 - Vergleichsoperatoren (`$gt`, `$lt`, `$eq`, etc.)
@@ -33,7 +33,7 @@ Hier findest du alle Themen rund um MongoDB & NoSQL – von der Einführung bis 
 
 ---
 
-## [D_Software.md](./D_Software.md)  
+## [04_Software.md](./04_Software.md)  
 **MongoDB mit Python (pymongo)**
 - Verbindung zur lokalen oder Cloud-DB
 - Zugriff auf Collections
@@ -43,7 +43,7 @@ Hier findest du alle Themen rund um MongoDB & NoSQL – von der Einführung bis 
 
 ---
 
-## [Z_CRUD.md](./Z_CRUD.md)  
+## [05_CRUD.md](./05_CRUD.md)  
 **CRUD kompakt & einfach erklärt**
 - Klarer Ablauf: Create → Read → Update → Delete
 - Syntaxbeispiele für Einsteiger

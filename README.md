@@ -19,18 +19,18 @@ Eine übersichtliche Darstellung aller Docker-Cheatsheets mit Kurzbeschreibungen
 - **[Container mit Docker-Netzwerken verbinden & trennen](docker/Markdown/bridge.md)** - Netzwerkverbindungen verwalten
 - **[WordPress mit MariaDB & phpMyAdmin](docker/Markdown/WP-MariaDB-phpMyAdmin.md)** - Praktisches Beispiel einer Multi-Container-Anwendung
 
->**Es gibt bei Docker auch PDF's, da diese ausgedruckt und an der Prüfung verwendet werden können.** [PDF](https://github.com/HeiligerG/SchoolCheatSheets/docker/PDF)
+>**Es gibt bei Docker auch PDF's, da diese ausgedruckt und an der Prüfung verwendet werden können.** [PDF](https://github.com/HeiligerG/SchoolCheatSheets/tree/master/docker/PDF)
 
 ### NoSQL-Cheatsheets
 
-**[Inhaltsverzeichnis NoSQL](NoSQL/Markdown/A_Inhalt.md)**
+**[Inhaltsverzeichnis NoSQL](NoSQL/Markdown/00_Inhalt.md)**
 Eine übersichtliche Darstellung aller NoSQL-Cheatsheets mit Kurzbeschreibungen.
 
-- **[Einstieg in MongoDB & Atlas](NoSQL/Markdown/AA_Einstieg.md)** – Grundlagen, Datenstrukturen, Cloud-Zugriff, erste Abfragen
-- **[Backups & Wiederherstellung](NoSQL/Markdown/B_Backup.md)** – `mongodump`, `mongorestore`, Automatisierung per Shell & Cron
-- **[MongoDB Shell-Commands](NoSQL/Markdown/C_Shell.md)** – Datenbanken, Collections, Abfragen, Filter, Projektion
-- **[Python & MongoDB (pymongo)](NoSQL/Markdown/D_Software.md)** – Verbindung, CRUD mit Objekten, DAO-Muster umsetzen
-- **[MongoDB CRUD kompakt erklärt](NoSQL/Markdown/Z_CRUD.md)** – Schritt-für-Schritt von Create bis Delete – super einfach & klar
+- **[Einstieg in MongoDB & Atlas](NoSQL/Markdown/01_Einstieg.md)** – Grundlagen, Datenstrukturen, Cloud-Zugriff, erste Abfragen
+- **[Backups & Wiederherstellung](NoSQL/Markdown/02_Backup.md)** – `mongodump`, `mongorestore`, Automatisierung per Shell & Cron
+- **[MongoDB Shell-Commands](NoSQL/Markdown/03_Shell.md)** – Datenbanken, Collections, Abfragen, Filter, Projektion
+- **[Python & MongoDB (pymongo)](NoSQL/Markdown/04_Software.md)** – Verbindung, CRUD mit Objekten, DAO-Muster umsetzen
+- **[MongoDB CRUD kompakt erklärt](NoSQL/Markdown/05_CRUD.md)** – Schritt-für-Schritt von Create bis Delete – super einfach & klar
 
 ### Python-Cheatsheets
 
@@ -40,9 +40,9 @@ Eine übersichtliche Darstellung aller Python-Cheatsheets mit Kurzbeschreibungen
 - **[Grundlagen](Python/Markdown/01_Grundlagen.md)** - Einführung in Syntax, Datentypen, Operatoren.
 - **[Variablen & Anweisungen](Python/Markdown//02_Variablen&Anweisungen.md)** -  Werte speichern, nutzen und ausgeben lernen.
 - **[Funktionen](Python/Markdown/03_Funktionen.md)** -  Code strukturieren, wiederverwenden und organisieren.
-- **[Interfaces & Beispiele](Python/Markdown/Interfaces&Beispiele.md)** -  Grafische Programmierung und Funktionsdesign vertiefen.
+- **[Interfaces & Beispiele](Python/Markdown/04_Interfaces&Beispiele.md)** -  Grafische Programmierung und Funktionsdesign vertiefen.
 
->**Es gibt bei Python auch PDF's, da diese ausgedruckt und an der Prüfung verwendet werden können.** [PDF](https://github.com/HeiligerG/SchoolCheatSheets/Python/PDF)
+>**Es gibt bei Python auch PDF's, da diese ausgedruckt und an der Prüfung verwendet werden können.** [PDF](https://github.com/HeiligerG/SchoolCheatSheets/tree/master/Python/PDF)
 
 ### BBZB
 - **[Alles was in die BM gehört](BBZB)**
