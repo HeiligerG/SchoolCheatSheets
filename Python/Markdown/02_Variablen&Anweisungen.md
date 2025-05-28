@@ -1,4 +1,4 @@
-# Python Grundlagen: Kapitel 2 - Variablen und Anweisungen
+# Python Variablen und Anweisungen
 
 ## Variablen und Zuweisungen
 

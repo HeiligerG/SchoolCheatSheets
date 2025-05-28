@@ -1,4 +1,4 @@
-# Python Grundlagen: Kapitel 3 - Funktionen
+# Python Funktionen
 
 ## Funktionen definieren und aufrufen
 

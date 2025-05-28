@@ -1,4 +1,4 @@
-# Python Grundlagen Cheatsheet
+# Python Grundlagen
 
 ## Programmieren als Denkweise
 - **Informatiker-Denkweise**: Kombination aus mathematischer Präzision, ingenieurmäßigem Design und wissenschaftlicher Beobachtung
