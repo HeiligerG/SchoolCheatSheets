@@ -1,6 +1,6 @@
 # SchoolCheatSheets
 
-## 🚀 Schneller Zugriff auf Lernmaterialien von überall
+## Schneller Zugriff auf Lernmaterialien von überall
 
 Dieses Repository enthält eine Sammlung von Cheatsheets für verschiedene Schulfächer und Technologien. Es wurde erstellt, um wichtige Konzepte, Befehle und Beispiele zentral und von überall zugänglich zu haben.
 
@@ -8,7 +8,7 @@ Dieses Repository enthält eine Sammlung von Cheatsheets für verschiedene Schul
 ℹ️ Info: Es lohnt sich das ganze Repo zu clonen, um dann das Markdown Preview von VSCode zu verwenden.
 </div>
 
-## 📚 Aktueller Inhalt
+## Aktueller Inhalt
 
 ### Docker-Cheatsheets
 
@@ -47,7 +47,7 @@ Eine übersichtliche Darstellung aller Python-Cheatsheets mit Kurzbeschreibungen
 ### BBZB
 - **[Alles was in die BM gehört](BBZB)**
 
-## 🔍 Warum dieses Repository?
+## Warum dieses Repository?
 
 - **Zentraler Zugriff**: Alle wichtigen Informationen an einem Ort
 - **Plattformunabhängig**: Von jedem Gerät mit Internetzugang erreichbar
@@ -64,7 +64,7 @@ Eine übersichtliche Darstellung aller Python-Cheatsheets mit Kurzbeschreibungen
 git clone https://github.com/HeiligerG/SchoolCheatSheets.git
 ```
 
-## 📝 Beitragen
+## Beitragen
 
 Wenn du eigene Cheatsheets hinzufügen oder bestehende verbessern möchtest:
 
@@ -72,7 +72,7 @@ Wenn du eigene Cheatsheets hinzufügen oder bestehende verbessern möchtest:
 2. Erstelle einen neuen Branch für deine Änderungen
 3. Reiche einen Pull Request ein
 
-## 🔄 Aktualisierung
+## Aktualisierung
 
 Dieses Repository wird regelmäßig mit neuen Cheatsheets und Aktualisierungen bestehender Materialien erweitert.
 
