@@ -11,18 +11,22 @@ Dieses Repository enthält eine Sammlung von Cheatsheets für verschiedene Schul
 ## 📚 Aktueller Inhalt
 
 ### Docker-Cheatsheets
+
+**[Inhaltsverzeichnis](docker/Markdown/A_Inhalt.md)**
+Eine übersichtliche Darstellung aller Docker-Cheatsheets mit Kurzbeschreibungen.
+
 - **[Docker CP, Bind Mounts & Volumes](docker/Markdown/cp-mounts.md)** - Dateioperationen und Persistenz in Docker
 - **[Volumes mit Docker](docker/Markdown/volume.md)** - Detaillierte Anleitung zur dauerhaften Datenspeicherung
 - **[Docker-Netzwerke](docker/Markdown/network.md)** - Container vernetzen, verstehen & nutzen
 - **[Container mit Docker-Netzwerken verbinden & trennen](docker/Markdown/bridge.md)** - Netzwerkverbindungen verwalten
 - **[WordPress mit MariaDB & phpMyAdmin](docker/Markdown/WP-MariaDB-phpMyAdmin.md)** - Praktisches Beispiel einer Multi-Container-Anwendung
 
-**[Inhaltsverzeichnis](docker/Markdown/A_Inhalt.md)**
-Eine übersichtliche Darstellung aller Docker-Cheatsheets mit Kurzbeschreibungen.
-
 >**Es gibt bei Docker auch PDF's, da diese ausgedruckt und an der Prüfung verwendet werden können.**
 
 ### NoSQL-Cheatsheets
+
+**[Inhaltsverzeichnis NoSQL](NoSQL/Markdown/A_Inhalt.md)**
+Eine übersichtliche Darstellung aller NoSQL-Cheatsheets mit Kurzbeschreibungen.
 
 - **[Einstieg in MongoDB & Atlas](NoSQL/Markdown/AA_Einstieg.md)** – Grundlagen, Datenstrukturen, Cloud-Zugriff, erste Abfragen
 - **[Backups & Wiederherstellung](NoSQL/Markdown/B_Backup.md)** – `mongodump`, `mongorestore`, Automatisierung per Shell & Cron
@@ -30,8 +34,15 @@ Eine übersichtliche Darstellung aller Docker-Cheatsheets mit Kurzbeschreibungen
 - **[Python & MongoDB (pymongo)](NoSQL/Markdown/D_Software.md)** – Verbindung, CRUD mit Objekten, DAO-Muster umsetzen
 - **[MongoDB CRUD kompakt erklärt](NoSQL/Markdown/Z_CRUD.md)** – Schritt-für-Schritt von Create bis Delete – super einfach & klar
 
-**[Inhaltsverzeichnis NoSQL](NoSQL/Markdown/A_Inhalt.md)**
-Eine übersichtliche Darstellung aller NoSQL-Cheatsheets mit Kurzbeschreibungen.
+### Python-Cheatsheets
+
+**[Inhaltsverzeichnis](Python/Markdown/00_Inhalt.md)**
+Eine übersichtliche Darstellung aller Python-Cheatsheets mit Kurzbeschreibungen.
+
+- **[Grundlagen](Python/Markdown/01_Grundlagen.md)**
+- **[Variablen & Anweisungen](Python/Markdown//02_Variablen&Anweisungen.md)**
+- **[Funktionen](Python/Markdown/03_Funktionen.md)**
+- **[Interfaces & Beispiele](Python/Markdown/Interfaces&Beispiele.md)**
 
 ### BBZB
 - **[Alles was in die BM gehört](BBZB)**
