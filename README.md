@@ -37,10 +37,10 @@ Eine übersichtliche Darstellung aller NoSQL-Cheatsheets mit Kurzbeschreibungen.
 **[Inhaltsverzeichnis Python](Python/Markdown/00_Inhalt.md)**
 Eine übersichtliche Darstellung aller Python-Cheatsheets mit Kurzbeschreibungen.
 
-- **[Grundlagen](Python/Markdown/01_Grundlagen.md)**
-- **[Variablen & Anweisungen](Python/Markdown//02_Variablen&Anweisungen.md)**
-- **[Funktionen](Python/Markdown/03_Funktionen.md)**
-- **[Interfaces & Beispiele](Python/Markdown/Interfaces&Beispiele.md)**
+- **[Grundlagen](Python/Markdown/01_Grundlagen.md)** - Einführung in Syntax, Datentypen, Operatoren.
+- **[Variablen & Anweisungen](Python/Markdown//02_Variablen&Anweisungen.md)** -  Werte speichern, nutzen und ausgeben lernen.
+- **[Funktionen](Python/Markdown/03_Funktionen.md)** -  Code strukturieren, wiederverwenden und organisieren.
+- **[Interfaces & Beispiele](Python/Markdown/Interfaces&Beispiele.md)** -  Grafische Programmierung und Funktionsdesign vertiefen.
 
 >**Es gibt bei Python auch PDF's, da diese ausgedruckt und an der Prüfung verwendet werden können.** [PDF](https://github.com/HeiligerG/SchoolCheatSheets/Python/PDF)
 
