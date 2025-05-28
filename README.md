@@ -21,7 +21,7 @@ Eine übersichtliche Darstellung aller Docker-Cheatsheets mit Kurzbeschreibungen
 - **[Container mit Docker-Netzwerken verbinden & trennen](docker/Markdown/bridge.md)** - Netzwerkverbindungen verwalten
 - **[WordPress mit MariaDB & phpMyAdmin](docker/Markdown/WP-MariaDB-phpMyAdmin.md)** - Praktisches Beispiel einer Multi-Container-Anwendung
 
->**Es gibt bei Docker auch PDF's, da diese ausgedruckt und an der Prüfung verwendet werden können.**
+>**Es gibt bei Docker auch PDF's, da diese ausgedruckt und an der Prüfung verwendet werden können.** [PDF](https://github.com/HeiligerG/SchoolCheatSheets/docker/PDF)
 
 ### NoSQL-Cheatsheets
 
@@ -43,6 +43,8 @@ Eine übersichtliche Darstellung aller Python-Cheatsheets mit Kurzbeschreibungen
 - **[Variablen & Anweisungen](Python/Markdown//02_Variablen&Anweisungen.md)**
 - **[Funktionen](Python/Markdown/03_Funktionen.md)**
 - **[Interfaces & Beispiele](Python/Markdown/Interfaces&Beispiele.md)**
+
+>**Es gibt bei Python auch PDF's, da diese ausgedruckt und an der Prüfung verwendet werden können.** [PDF](https://github.com/HeiligerG/SchoolCheatSheets/Python/PDF)
 
 ### BBZB
 - **[Alles was in die BM gehört](BBZB)**
