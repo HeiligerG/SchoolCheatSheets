@@ -74,7 +74,7 @@ Wenn du eigene Cheatsheets hinzufügen oder bestehende verbessern möchtest:
 
 ## Aktualisierung
 
-Dieses Repository wird regelmäßig mit neuen Cheatsheets und Aktualisierungen bestehender Materialien erweitert.
+Dieses Repository wird regelmässig mit neuen Cheatsheets und Aktualisierungen bestehender Materialien erweitert.
 
 ---
 
