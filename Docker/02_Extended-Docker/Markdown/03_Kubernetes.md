@@ -2,37 +2,46 @@
 
 ## 📚 Inhaltsverzeichnis
 
-1. [🎯 Grundkonzepte](#-grundkonzepte)
-   - [Was ist Kubernetes](#was-ist-kubernetes)
-   - [Cluster & API](#cluster--api)
-   - [Ressourcen & Controller](#ressourcen--controller)
-2. [🏗️ Kernkomponenten](#️-kernkomponenten)
-   - [Pod](#pod)
-   - [Deployment](#deployment)
-   - [Service](#service)
-   - [Zusammenspiel](#zusammenspiel)
-3. [📝 YAML-Manifeste](#-yaml-manifeste)
-   - [Pod-Manifest](#pod-manifest)
-   - [Deployment-Manifest](#deployment-manifest)
-   - [Service-Manifest](#service-manifest)
-4. [🔧 kubectl Befehle](#-kubectl-befehle)
-   - [Erstellen & Anwenden](#erstellen--anwenden)
-   - [Anzeigen & Überwachen](#anzeigen--überwachen)
-   - [Debugging & Logs](#debugging--logs)
-   - [Löschen & Verwalten](#löschen--verwalten)
-5. [🏷️ Labels & Selektoren](#️-labels--selektoren)
-   - [Label-Konzepte](#label-konzepte)
-   - [Selektor-Syntax](#selektor-syntax)
-6. [🌐 Netzwerk & Services](#-netzwerk--services)
-   - [ClusterIP](#clusterip)
-   - [LoadBalancer](#loadbalancer)
-   - [Port-Forwarding](#port-forwarding)
-7. [🔄 Ressourcenverwaltung](#-ressourcenverwaltung)
-   - [Controller-Prinzip](#controller-prinzip)
-   - [Ausfallsicherheit](#ausfallsicherheit)
-8. [💡 Prüfungsrelevante Konzepte](#-prüfungsrelevante-konzepte)
+- [Kubernetes CheatSheet - Modul 347](#kubernetes-cheatsheet---modul-347)
+  - [📚 Inhaltsverzeichnis](#-inhaltsverzeichnis)
+  - [🎯 Grundkonzepte](#-grundkonzepte)
+    - [Was ist Kubernetes](#was-ist-kubernetes)
+    - [Cluster \& API](#cluster--api)
+    - [Ressourcen \& Controller](#ressourcen--controller)
+  - [🏗️ Kernkomponenten](#️-kernkomponenten)
+    - [Pod](#pod)
+    - [Deployment](#deployment)
+    - [Service](#service)
+    - [Zusammenspiel](#zusammenspiel)
+  - [📝 YAML-Manifeste](#-yaml-manifeste)
+    - [Pod-Manifest](#pod-manifest)
+    - [Deployment-Manifest](#deployment-manifest)
+    - [Service-Manifest](#service-manifest)
+  - [🔧 kubectl Befehle](#-kubectl-befehle)
+    - [Erstellen \& Anwenden](#erstellen--anwenden)
+    - [Anzeigen \& Überwachen](#anzeigen--überwachen)
+    - [Debugging \& Logs](#debugging--logs)
+    - [Löschen \& Verwalten](#löschen--verwalten)
+  - [🏷️ Labels \& Selektoren](#️-labels--selektoren)
+    - [Label-Konzepte](#label-konzepte)
+    - [Selektor-Syntax](#selektor-syntax)
+  - [🌐 Netzwerk \& Services](#-netzwerk--services)
+    - [ClusterIP](#clusterip)
+    - [LoadBalancer](#loadbalancer)
+    - [Port-Forwarding](#port-forwarding)
+  - [🔄 Ressourcenverwaltung](#-ressourcenverwaltung)
+    - [Controller-Prinzip](#controller-prinzip)
+    - [Ausfallsicherheit](#ausfallsicherheit)
+  - [💡 Prüfungsrelevante Konzepte](#-prüfungsrelevante-konzepte)
+    - [DNS \& Service Discovery](#dns--service-discovery)
+    - [Label-Selektoren in Deployments](#label-selektoren-in-deployments)
+    - [Service → Pod Verbindung](#service--pod-verbindung)
+    - [Wichtige Unterschiede](#wichtige-unterschiede)
+    - [Typische Prüfungsfragen](#typische-prüfungsfragen)
+    - [Kubectl Kurzformen](#kubectl-kurzformen)
+    - [Häufige Befehle für Prüfung](#häufige-befehle-für-prüfung)
 
----
+<div style="page-break-before: always;"></div>
 
 ## 🎯 Grundkonzepte
 
@@ -89,6 +98,8 @@
 - Kommunizieren über localhost
 - Vergängliche IP-Adressen
 - Werden von Deployments verwaltet
+
+<div style="page-break-before: always;"></div>
 
 ### Deployment
 
@@ -148,6 +159,8 @@ spec:
 - `kind`: Ressourcentyp (Pod)
 - `metadata`: Name und Labels
 - `spec`: Container-Spezifikation
+
+<div style="page-break-before: always;"></div>
 
 ### Deployment-Manifest
 
@@ -213,6 +226,8 @@ kubectl create deployment hello-deploy --image=nginx
 # Aus URL anwenden
 kubectl apply -f https://raw.githubusercontent.com/...
 ```
+
+<div style="page-break-before: always;"></div>
 
 ### Anzeigen & Überwachen
 
@@ -282,6 +297,8 @@ kubectl delete deployments --all
 kubectl delete -f deployment.yaml
 ```
 
+<div style="page-break-before: always;"></div>
+
 ## 🏷️ Labels & Selektoren
 
 ### Label-Konzepte
@@ -345,6 +362,8 @@ spec:
     app: my-app
 ```
 
+<div style="page-break-before: always;"></div>
+
 ### LoadBalancer
 
 **Für externen Zugriff:**
@@ -406,6 +425,8 @@ kubectl port-forward svc/myservice 8080:80
 - Neue IP-Adresse für neuen Pod
 - Service leitet Traffic weiter
 
+<div style="page-break-before: always;"></div>
+
 **Container stirbt:**
 - Kubernetes startet Container neu
 - Pod-IP bleibt gleich
@@ -459,6 +480,8 @@ spec:
 | **Skalierung** | Manuell | Automatisch/Deklarativ |
 | **Updates** | Manuell ersetzen | Rolling Updates |
 | **Verwendung** | Testing/Debugging | Produktion |
+
+<div style="page-break-before: always;"></div>
 
 ### Typische Prüfungsfragen
 
