@@ -10,16 +10,24 @@ Dieses Repository enthält eine Sammlung von Cheatsheets für verschiedene Schul
 
 ### Docker-Cheatsheets
 
-**[Inhaltsverzeichnis Docker](Docker/Markdown/00_Inhalt.md)**
+**[Inhaltsverzeichnis Vanilla Docker](Docker/Vanilla-Docker/Markdown/00_Inhalt.md)**
 Eine übersichtliche Darstellung aller Docker-Cheatsheets mit Kurzbeschreibungen.
 
-- **[Docker CP, Bind Mounts & Volumes](Docker/Markdown/01_Copy-Bind_Mounts&Volumes.md)** - Dateioperationen und Persistenz in Docker
-- **[Volumes mit Docker](Docker/Markdown/Volumes.md)** - Detaillierte Anleitung zur dauerhaften Datenspeicherung
-- **[Docker-Netzwerke](Docker/Markdown/Network.md)** - Container vernetzen, verstehen & nutzen
-- **[Container mit Docker-Netzwerken verbinden & trennen](Docker/Markdown/NetworkBridge.md)** - Netzwerkverbindungen verwalten
-- **[WordPress mit MariaDB & phpMyAdmin](Docker/Markdown/WP&MariaDB&PhpMyAdmin.md)** - Praktisches Beispiel einer Multi-Container-Anwendung
+- **[Docker CP, Bind Mounts & Volumes](Docker/01_Vanilla-Docker/Markdown/01_Copy-Bind_Mounts&Volumes.md)** - Dateioperationen und Persistenz in Docker
+- **[Volumes mit Docker](Docker/01_Vanilla-Docker/Markdown/Volumes.md)** - Detaillierte Anleitung zur dauerhaften Datenspeicherung
+- **[Docker-Netzwerke](Docker/01_Vanilla-Docker/Markdown/Network.md)** - Container vernetzen, verstehen & nutzen
+- **[Container mit Docker-Netzwerken verbinden & trennen](Docker/01_Vanilla-Docker/Markdown/NetworkBridge.md)** - Netzwerkverbindungen verwalten
+- **[WordPress mit MariaDB & phpMyAdmin](Docker/01_Vanilla-Docker/Markdown/WP&MariaDB&PhpMyAdmin.md)** - Praktisches Beispiel einer Multi-Container-Anwendung
 
->**Es gibt bei Docker auch PDF's, da diese ausgedruckt und an der Prüfung verwendet werden können.** [PDF](https://github.com/HeiligerG/SchoolCheatSheets/tree/master/docker/PDF)
+>**Es gibt bei Docker auch PDF's, da diese ausgedruckt und an der Prüfung verwendet werden können.** [PDF](https://github.com/HeiligerG/SchoolCheatSheets/tree/master/Docker/01_Vanilla-Docker/PDF)
+
+### Extended-Docker Cheatsheets
+
+- **[Dockerfile](Docker/02_Extended-Docker/Markdown/01_Dockerfile.md)** - Alles was man benötigt um ein Dockerfile zu verstehen und anwenden zu können.
+- **[Docker-compose](Docker/02_Extended-Docker/Markdown/02_Docker-compose.md)** - Befehle, Strukturierung, Orchestrierung von Container, Services, YAML.
+- **[Kubernetes - K8s](Docker/02_Extended-Docker/Markdown/03_Kubernetes.md)** - Grundkonzepte, Manifeste, kubectl comands, Labels, Network usw.
+
+>**Auch hier gibt es PDF's, da diese ausgedruckt und an der Prüfung verwendet werden können.** [PDF](https://github.com/HeiligerG/SchoolCheatSheets/tree/master/Docker/02_Extended-Docker/PDF)
 
 ### NoSQL-Cheatsheets
 
