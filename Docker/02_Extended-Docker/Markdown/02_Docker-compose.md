@@ -2,38 +2,48 @@
 
 ## 📚 Inhaltsverzeichnis
 
-1. [📋 YAML Grundlagen](#-yaml-grundlagen)
-   - [YAML vs JSON](#yaml-vs-json)
-   - [Arrays und Objekte](#arrays-und-objekte)
-   - [Variablen und Referenzen](#variablen-und-referenzen)
-2. [🐳 Docker Compose Struktur](#-docker-compose-struktur)
-   - [Grundlegende compose.yaml](#grundlegende-composeyaml)
-   - [Services Definition](#services-definition)
-3. [⚙️ Service-Konfiguration](#️-service-konfiguration)
-   - [Basis-Optionen](#basis-optionen)
-   - [Umgebungsvariablen](#umgebungsvariablen)
-   - [Volumes](#volumes)
-   - [Netzwerk & Ports](#netzwerk--ports)
-   - [Abhängigkeiten](#abhängigkeiten)
-4. [🔨 Docker Compose Befehle](#-docker-compose-befehle)
-   - [Starten & Stoppen](#starten--stoppen)
-   - [Build & Management](#build--management)
-   - [Debugging](#debugging)
-5. [🏗️ Praktische Beispiele](#️-praktische-beispiele)
-   - [Einfacher Web-Stack](#einfacher-web-stack)
-   - [Datenbank mit phpMyAdmin](#datenbank-mit-phpmyadmin)
-   - [WordPress Stack](#wordpress-stack)
-   - [Flask + Redis + Nginx](#flask--redis--nginx)
-   - [PostgreSQL + pgAdmin](#postgresql--pgadmin)
-6. [🎯 Profile & Skalierung](#-profile--skalierung)
-   - [Service-Profile](#service-profile)
-   - [Skalierung](#skalierung)
-7. [🔐 Sicherheit & Best Practices](#-sicherheit--best-practices)
-   - [.env Dateien](#env-dateien)
-   - [Secrets](#secrets)
-   - [Best Practices](#best-practices)
+- [Docker Compose CheatSheet - Modul 347](#docker-compose-cheatsheet---modul-347)
+  - [📚 Inhaltsverzeichnis](#-inhaltsverzeichnis)
+  - [📋 YAML Grundlagen](#-yaml-grundlagen)
+    - [YAML vs JSON](#yaml-vs-json)
+    - [Arrays und Objekte](#arrays-und-objekte)
+    - [Variablen und Referenzen](#variablen-und-referenzen)
+  - [🐳 Docker Compose Struktur](#-docker-compose-struktur)
+    - [Grundlegende compose.yaml](#grundlegende-composeyaml)
+    - [Services Definition](#services-definition)
+  - [⚙️ Service-Konfiguration](#️-service-konfiguration)
+    - [Basis-Optionen](#basis-optionen)
+    - [Umgebungsvariablen](#umgebungsvariablen)
+    - [Volumes](#volumes)
+    - [Netzwerk \& Ports](#netzwerk--ports)
+    - [Abhängigkeiten](#abhängigkeiten)
+  - [🔨 Docker Compose Befehle](#-docker-compose-befehle)
+    - [Starten \& Stoppen](#starten--stoppen)
+    - [Build \& Management](#build--management)
+    - [Debugging](#debugging)
+  - [🏗️ Praktische Beispiele](#️-praktische-beispiele)
+    - [Einfacher Web-Stack](#einfacher-web-stack)
+    - [Datenbank mit phpMyAdmin](#datenbank-mit-phpmyadmin)
+    - [WordPress Stack](#wordpress-stack)
+    - [Flask + Redis + Nginx](#flask--redis--nginx)
+    - [PostgreSQL + pgAdmin](#postgresql--pgadmin)
+  - [🎯 Profile \& Skalierung](#-profile--skalierung)
+    - [Service-Profile](#service-profile)
+    - [Skalierung](#skalierung)
+  - [🔐 Sicherheit \& Best Practices](#-sicherheit--best-practices)
+    - [.env Dateien](#env-dateien)
+    - [Secrets](#secrets)
+    - [Best Practices](#best-practices)
+  - [🔄 Typische Workflows](#-typische-workflows)
+    - [Entwicklung](#entwicklung)
+    - [Produktion](#produktion)
+    - [Debugging](#debugging-1)
+  - [⚠️ Wichtige Hinweise](#️-wichtige-hinweise)
+    - [Volume-Management](#volume-management)
+    - [Netzwerk](#netzwerk)
+    - [Restart-Policies](#restart-policies)
 
----
+<div style="page-break-before: always;"></div>
 
 ## 📋 YAML Grundlagen
 
@@ -82,6 +92,9 @@ best_lernender: *lernender
 hauptperson: &haupt Max Mustermann
 beste_person: *haupt
 ```
+
+<div style="page-break-before: always;"></div>
+
 
 ## 🐳 Docker Compose Struktur
 
@@ -150,6 +163,8 @@ services:
       MYSQL_DATABASE: mydb
 ```
 
+<div style="page-break-before: always;"></div>
+
 **Mit .env-Datei:**
 ```yaml
 services:
@@ -205,6 +220,8 @@ services:
     restart: always              # always, no, on-failure, unless-stopped
     restart: on-failure:10       # Max 10 Versuche
 ```
+
+<div style="page-break-before: always;"></div>
 
 ## 🔨 Docker Compose Befehle
 
@@ -267,6 +284,8 @@ docker compose run web ls -la
 docker compose restart web
 ```
 
+<div style="page-break-before: always;"></div>
+
 ## 🏗️ Praktische Beispiele
 
 ### Einfacher Web-Stack
@@ -313,6 +332,8 @@ volumes:
   db_data:
     name: db_data_wordpress
 ```
+
+<div style="page-break-before: always;"></div>
 
 ### WordPress Stack
 
@@ -366,6 +387,8 @@ volumes:
   wp_data:
     name: wp_data_wordpress
 ```
+
+<div style="page-break-before: always;"></div>
 
 ### Flask + Redis + Nginx
 
@@ -422,6 +445,8 @@ volumes:
   postgres_data:
   pgadmin_data:
 ```
+
+<div style="page-break-before: always;"></div>
 
 ## 🎯 Profile & Skalierung
 
@@ -485,6 +510,8 @@ MYSQL_ROOT_PASSWORD=supersecret
 API_KEY=your-secret-key
 ```
 
+<div style="page-break-before: always;"></div>
+
 **compose.yaml:**
 ```yaml
 services:
@@ -546,6 +573,8 @@ docker compose ps
 docker compose pull
 docker compose up -d
 ```
+
+<div style="page-break-before: always;"></div>
 
 ### Debugging
 ```bash
