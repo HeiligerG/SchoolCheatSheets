@@ -2,36 +2,45 @@
 
 ## 📚 Inhaltsverzeichnis
 
-1. [🔧 Grundlegende Dockerfile-Struktur](#-grundlegende-dockerfile-struktur)
-2. [📋 Dockerfile-Befehle im Detail](#-dockerfile-befehle-im-detail)
-   - [FROM](#from)
-   - [LABEL](#label)
-   - [ARG vs ENV](#arg-vs-env)
-   - [WORKDIR](#workdir)
-   - [COPY vs ADD](#copy-vs-add)
-   - [RUN](#run)
-   - [EXPOSE](#expose)
-   - [CMD vs ENTRYPOINT](#cmd-vs-entrypoint)
-3. [🐍 Python-Anwendungen](#-python-anwendungen)
-   - [Einfache Python-App](#einfache-python-app)
-   - [Flask-Anwendung](#flask-anwendung)
-   - [FastAPI-Anwendung](#fastapi-anwendung)
-4. [🔨 Build & Run Befehle](#-build--run-befehle)
-   - [Image bauen](#image-bauen)
-   - [Container starten](#container-starten)
-5. [🔍 Debugging & Inspection](#-debugging--inspection)
-   - [Container untersuchen](#container-untersuchen)
-   - [Image untersuchen](#image-untersuchen)
-6. [⚠️ Wichtige Hinweise](#️-wichtige-hinweise)
-   - [Shell-Form vs Exec-Form](#shell-form-vs-exec-form)
-   - [Sicherheit](#sicherheit)
-   - [Best Practices](#best-practices)
-7. [📝 Typische Aufgaben-Patterns](#-typische-aufgaben-patterns)
-   - [EXPOSE-Test](#1-expose-test)
-   - [LABEL-Test](#2-label-test)
-   - [ARG/ENV-Test](#3-argenv-test)
+- [Docker Dockerfile CheatSheet - Modul 347](#docker-dockerfile-cheatsheet---modul-347)
+  - [📚 Inhaltsverzeichnis](#-inhaltsverzeichnis)
+  - [🔧 Grundlegende Dockerfile-Struktur](#-grundlegende-dockerfile-struktur)
+  - [📋 Dockerfile-Befehle im Detail](#-dockerfile-befehle-im-detail)
+    - [FROM](#from)
+    - [LABEL](#label)
+    - [ARG vs ENV](#arg-vs-env)
+      - [ARG (nur Build-Zeit)](#arg-nur-build-zeit)
+      - [ENV (Build + Laufzeit)](#env-build--laufzeit)
+    - [WORKDIR](#workdir)
+    - [COPY vs ADD](#copy-vs-add)
+      - [COPY (Empfohlen)](#copy-empfohlen)
+      - [ADD (Erweitert)](#add-erweitert)
+    - [RUN](#run)
+    - [EXPOSE](#expose)
+    - [CMD vs ENTRYPOINT](#cmd-vs-entrypoint)
+      - [CMD (überschreibbar)](#cmd-überschreibbar)
+      - [ENTRYPOINT (fest)](#entrypoint-fest)
+      - [Kombination ENTRYPOINT + CMD](#kombination-entrypoint--cmd)
+  - [🐍 Python-Anwendungen](#-python-anwendungen)
+    - [Einfache Python-App](#einfache-python-app)
+    - [Flask-Anwendung](#flask-anwendung)
+    - [FastAPI-Anwendung](#fastapi-anwendung)
+  - [🔨 Build \& Run Befehle](#-build--run-befehle)
+    - [Image bauen](#image-bauen)
+    - [Container starten](#container-starten)
+  - [🔍 Debugging \& Inspection](#-debugging--inspection)
+    - [Container untersuchen](#container-untersuchen)
+    - [Image untersuchen](#image-untersuchen)
+  - [⚠️ Wichtige Hinweise](#️-wichtige-hinweise)
+    - [Shell-Form vs Exec-Form](#shell-form-vs-exec-form)
+    - [Sicherheit](#sicherheit)
+    - [Best Practices](#best-practices)
+  - [📝 Typische Aufgaben-Patterns](#-typische-aufgaben-patterns)
+    - [1. EXPOSE-Test](#1-expose-test)
+    - [2. LABEL-Test](#2-label-test)
+    - [3. ARG/ENV-Test](#3-argenv-test)
 
----
+<div style="page-break-before: always;"></div>
 
 ## 🔧 Grundlegende Dockerfile-Struktur
 
@@ -136,6 +145,8 @@ EXPOSE 8888
 - **Wichtig**: Startet KEINE automatische Portweiterleitung!
 - **Automatisches Mapping**: `docker run -P <image>` (großes P)
 
+<div style="page-break-before: always;"></div>
+
 ### CMD vs ENTRYPOINT
 
 #### CMD (überschreibbar)
@@ -188,6 +199,8 @@ ENV FLASK_RUN_PORT=80
 CMD ["flask", "run", "--host=0.0.0.0"]
 ```
 
+<div style="page-break-before: always;"></div>
+
 ### FastAPI-Anwendung
 ```dockerfile
 FROM python:3.11
@@ -237,6 +250,8 @@ docker run <image> bash
 # ENTRYPOINT überschreiben
 docker run --entrypoint=bash <image>
 ```
+
+<div style="page-break-before: always;"></div>
 
 ## 🔍 Debugging & Inspection
 
